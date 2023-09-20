@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/ThorD125/template",
   "author": "ThorD125",
-  "license": "GNU GENERAL PUBLIC LICENSE",
+  "license": "GPL-3.0-only",
   "scripts": {
     "save": "git add . && git commit -m f && git push && git status",
     "update": "git fetch origin && git checkout development && git pull"
