@@ -8,7 +8,6 @@
   "scripts": {
     "save": "git add . && git commit -m f && git push && git status",
     "update": "git fetch origin && git checkout development && git pull",
-    "fix": "git reset --soft HEAD~1 && git pull && yarn save",
-    "pullTemplate": "git remote add template https://github.com/ThorD125/template && git fetch --all && git merge template/development --allow-unrelated-histories && yarn save && git push origin HEAD:development && git checkout development && git pull"
+    "fix": "git reset --soft HEAD~1 && git pull && yarn save"
   }
 }
